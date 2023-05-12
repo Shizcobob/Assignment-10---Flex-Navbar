@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    height: 200px;
+    background-color: white;
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 50px;
+}
+
+.col {
+    flex: 1;
+    background-color: rgb(101, 157, 161);
+    margin: 10px;
+    color: white;
+    padding: 70px;
+    text-align: left;
+    font-size: 30px;
+
+}
+
+.col-2 {
+    flex: 2;
+    background-color: rgb(101, 157, 161);
+    margin: 10px;
+    color: white;
+    padding: 70px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.col-3 {
+    flex: 3;
+    background-color: rgb(101, 157, 161);
+    margin: 10px;
+    color: white;
+    padding: 70px;
+    font-size: 30px;
+}
